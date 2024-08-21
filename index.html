@@ -1,0 +1,676 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>
+        HOME - MIN PETS
+    </title>
+    <link rel="stylesheet" href="style1.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Tillana&display=swap');
+    </style> -->
+    <!-- link file hieu ung -->
+    <!-- link file css hieu ung  -->
+    <link rel="stylesheet" type="text/css" href="hieuung.css">
+    <link rel="stylesheet" href="link.css">
+</head>
+
+<body>
+
+    <div id="hoplen" class="hoplen"><ion-icon id="len" class="len" name="arrow-up-outline"></ion-icon></div>
+    <div class="iconmenu" id="iconmenu"><ion-icon name="menu-outline"></ion-icon></div>
+    <div id="thongbaosanphamvaoyeuthich" class="thongbaosanphamvaoyeuthich">
+        <div class="thanhthoigian"></div>
+        <div id="thongbaosanphamvaoyeuthich" class="chuthongbaoyeuthich">Product Added to Favorites
+            <ion-icon style="color: red;" name="heart-circle-outline"></ion-icon>
+        </div>
+
+
+        <button id="favorites"><a style="color: aliceblue;" href="tranmucyeuthich.html">GO TO FAVORITES</a> <ion-icon
+                name="log-out-outline"></ion-icon></button>
+    </div>
+    <div id="giohangssss" class="giohangssss">Product added to cart
+        <ion-icon style="color: red;" name="heart-like-outline"></ion-icon> <br>
+        <button style="padding: 3px;background-color:   #34495e;border-radius: 5px; font-size: 15px;" id="favorites"><a
+                style="color: aliceblue;" href="tranmucyeuthich.html">GO TO CART</a>
+            <ion-icon name="log-out-outline"></ion-icon></button>
+    </div>
+
+
+    <div class="hopmenu" id="hopmenu">
+        <div class="iconmenu1" id="iconmenu1"> <ion-icon name="menu-outline"></ion-icon></div>
+        <ul style="z-index: 5;" class="menungang1">
+            <li class="home1" id="vitri1">HOME</li>
+            <li class="sanpham"><a href="thumucsanpham.html">PRODUCT</a></li>
+            <li id="vitri5">ABOUT</li>
+            <li id="vitri6">CONTACT</li>
+            <li class="home4" id="vitri77"><a href="trangmuchinhanh.html">PICTURES</a></li>
+
+            <li>YOUR ACCOUNT</li>
+            <li><a href="tranggiohang.html">YOUR CART</a></li>
+            <li id="timkiem"><a href="timkiemsanpham.html">PRODUCT SEARCH</a></li>
+            <li><a href="tranmucyeuthich.html">FAVORITES FOLDER</a></li>
+        </ul>
+    </div>
+    <!-- hop menu dung im -->
+
+    <div class="container">
+        <div class="main">
+            <div class="nav" id="nav">
+                <ul>
+                    <img src="./anh/logo.png" alt="">
+                    <li style="background-color: #2d3436 ; padding: 10px; border-radius: 10px;color: white;"
+                        class="home1"><a style="color: white;" href="home.html">HOME</a>
+                    </li>
+                    <li class="sanpham"><a href="thumucsanpham.html">PRODUCT</a></li>
+                    <li class="home2" id="vitri55">ABOUT</li>
+                    <li class="home3" id="vitri66">CONTACT</li>
+                    <li class="home4" id="vitri77"><a href="trangmuchinhanh.html">PICTURES</a></li>
+                    <li><ion-icon name="person-circle-outline"></ion-icon></li>
+                    <li id="giohang"><a href="tranggiohang.html"><ion-icon name="cart-outline"></ion-icon>
+                            <p id="tongsanpham"></p>
+                        </a></li>
+                    <li id="timkiem">
+                        <a href="timkiemsanpham.html"> <ion-icon id="timkiem" name="search-outline"></ion-icon></a>
+                    </li>
+                    <li><a href="tranmucyeuthich.html"><ion-icon id="thumucyeuthich"
+                                name="heart-outline"></ion-icon></a></li>
+                </ul>
+            </div>
+
+            <div class="banner-3" id="banner-3">
+                <div class="anh active"><img src="anch/banner0.jpg" id="anhhhhh" alt=""></div>
+                <div class="hopnut0000" id="hopnut0000">
+                    <div class="nut01" id="nut01"></div>
+                    <div class="nut02" id="nut02"></div>
+                    <div class="nut03" id="nut03"></div>
+                    <div class="nut04" id="nut04"></div>
+                </div>
+
+
+            </div>
+
+            <div id="thanhtrai" class="thanhtrai"><ion-icon name="arrow-back-outline"></ion-icon></div>
+            <div class="thanhphai" id="thanhphai"><ion-icon name="arrow-forward-outline"></ion-icon></div>
+            <div class="hopsale" id="hopsale"> </div>
+
+            <div class="dichvu" id="dichvu">
+                <div id="hopchua1" class="hopFreeShipping">
+                    <div id="hopchuacon1" class="hopchuaicon"><i class="fa fa-shipping-fast"></i></div>
+                    <div class="hopchuachu"><b>Free Shipping</b> <br>
+                        Fast, accurate, reliable, and efficient.</div>
+                </div>
+                <div id="hopchua2" class="hopOnlineSupport">
+                    <div id="hopchuacon2" class="hopchuaicon"><ion-icon name="call-outline"></ion-icon></div>
+                    <div class="hopchuachu"><b>Online Support</b> <br>
+                        Dedicated, attentive, enthusiastic, effective.</div>
+                </div>
+                <div id="hopchua3" class="hopMoneyBack">
+                    <div id="hopchuacon3" class="hopchuaicon"><ion-icon name="reload-outline"></ion-icon></div>
+                    <div class="hopchuachu"><b>Money Back</b> <br>
+                        100% Refund Guaranteed in the Event of Delivery Error </div>
+                </div>
+                <div id="hopchua4" class="hopOurServices">
+                    <div id="hopchuacon4" class="hopchuaicon"><i class="fa fa-cog"></i></div>
+                    <div class="hopchuachu"><b>Our Services</b> <br>
+                        Professional, Quality, Swift, Flexible.</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container1" id="container1">
+        <div class="main">
+            <div class="TopCategories">Top Categories <br>
+                <div class="thanhchancuaTopCategories" id="thanhchancuaTopCategories"></div>
+            </div>
+            <div class="hopchuasanphamtop">
+                <div class="anh11" id="anh11"><img id="anh111" src="anh/category-image1.jpg" alt="">
+                    <div id="hopmo"></div>
+                    <div id="brank1" data-brank="The Cat Bed with Round Shape."></div>
+                    <div class="hopchuadanhmuc">
+                        <button id="love0" data-price="104"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" 
+                            data-chitiet="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci <img src='https://wowlavie-aws.hmgcdn.com/file/article_all/A1529034894.jpg' > velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, <img src='https://wowlavie-aws.hmgcdn.com/file/article_all/A1529054185.jpg'>  nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint <img src='https://wowlavie-aws.hmgcdn.com/file/article_all/A1529054319.jpg'> occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda <img src='https://wowlavie-aws.hmgcdn.com/file/article_all/A1529055313.jpg'>est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang0"><ion-icon name="bag-add-outline"></ion-icon></button>
+
+
+                        <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                                name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                                name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                        <p>Cute cat-shaped anti-sand mat<br> <b>$ 104.00</b></p>
+                        <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                    </div>
+                </div>
+
+                <div class="anh11" id="anh22"><img id="anh222" src="anh/category-image2.jpg" alt="">
+                    <div id="brank2" data-brank="Carrier Bag"></div>
+                    <div class="hopchuadanhmuc1">
+                        <button id="love1" data-price="104"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh2/goc1.jpg" data-goc2="anh2/goc2.jpg"
+                            data-goc3="anh2/goc3.jpg" data-goc4="anh2/goc4.jpg"
+                            data-chitiet="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <img src='https://cdn.shopify.com/s/files/1/1865/9309/products/XL-white-deer1_360x.JPG?v=1570887087'> et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui <img src='https://cdn.shopify.com/s/files/1/1865/9309/products/large_white_deer_head__28423.1381354133_360x.jpg?v=1570887241'> ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, <img src='https://cdn.shopify.com/s/files/1/1865/9309/products/large_white_deer_head__28423.1381354133_360x.jpg?v=1570887241'> nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble  <img src='https://cdn.shopify.com/s/files/1/1865/9309/products/mini-white-deer-head-gold-antlers-1_360x.JPG?v=1556052401'>that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple<img src='https://cdn.shopify.com/s/files/1/1865/9309/products/deer-skull-mini-white-gold-antlers-1_360x.jpg?v=1507816916'> and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain<img src='https://cdn.shopify.com/s/files/1/1865/9309/products/White-Gold-Buck-Doe-Set-Alfred-Ophelia-His-and-Hers_jpg_360x.jpg?v=1555527528'> circumstances and owing to the claims of duty or the obligations of business it will frequently occur that<img src='https://cdn.shopify.com/s/files/1/1865/9309/products/deer-skull-mini-white-gold-antlers-1_360x.jpg?v=1507816916'> pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains. "
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang1"><ion-icon name="bag-add-outline"></ion-icon></button>
+
+                        <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                                name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                                name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                        <p>Accusantium Doloremque <br> <b>$ 104.00</b></p>
+                        <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+
+                    </div>
+                </div>
+                <div class="anh11" id="anh33"><img id="anh333" src="anh/category-image3.jpg" alt="">
+                    <div id="brank3" data-brank="High Back Cushion with Handle"></div>
+                    <div class="hopchuadanhmuc2">
+                        <button id="love2" data-price="104"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh3/goc1.jpg" data-goc2="anh3/goc2.jpg"
+                            data-goc3="anh3/goc3.jpg" data-goc4="anh3/goc4.jpg"
+                            data-chitiet="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas<img src='https://guongbi.com/wp-content/uploads/2017/07/d9.png'> molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.<img src='https://bizweb.dktcdn.net/100/098/272/files/tuong-dau-phat-dep-5.jpg?v=1501484436428'> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint  et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by <img src='https://bizweb.dktcdn.net/100/098/272/files/tuong-dau-phat-dep-1.jpg?v=1501484456994'>the charms of pleasure of the moment, <img src='https://bizweb.dktcdn.net/100/098/272/files/dau-tuong-phat-1-c63e0489-cb45-4aa7-a387-17eff2fcd8de.jpg?v=1501484720497'>so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.<img src='https://bizweb.dktcdn.net/100/098/272/files/tuong-dau-phat-dep-4.jpg?v=1501484472248'> The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains. Tượng decor phật tổ
+
+                            Tượng Phật Tổ Decor ngoài những tác dụng sâu xa của Phật Giáo còn cho chúng ta rất nhiều điều về mặt tâm lý chiều sâu, rất tinh tế về mặt khoa học tâm linh và cũng là công cụ hỗ trợ đặc biệt về khoa học phong thủy Decor nội thất hiện đại, tạo ra một không gian thiền định, tĩnh tâm sâu lắng, hướng thiện và cầu bình an.	"
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang2"><ion-icon name="bag-add-outline"></ion-icon></button>
+
+                        <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                                name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                                name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                        <p>Accusantium Doloremque <br> <b>$ 104.00</b></p>
+                        <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hopgioithieus" id="hopgioithieu1">Welcome to Min Pets - the home of fantastic companions! We
+                take pride in being the go-to destination for pet enthusiasts, where you can find everything you need to
+                care for and delight your furry friends.
+
+                At Min Pets, we offer a diverse and high-quality collection of food, toys, accessories, and more to
+                ensure your pets receive the best care possible. We are committed to providing a convenient, secure, and
+                warm online shopping experience.
+
+                Visit our online store to explore a diverse space where the well-being and love for your pets take
+                center stage. Min Pets is where passion and pet affection come together to create unforgettable moments.
+                Welcome to the Min Pets family!</div>
+
+            <div id="thanh1s"></div>
+            <div id="thanh2s"></div>
+        </div>
+
+
+    </div>
+
+    <div class="container2">
+        <div class="main">
+
+            <div class="TopCategories">Product inventory<br>
+                <div class="thanhchancuaTopCategoriess"></div>
+            </div>
+
+            <div class="banner-30" id="banner-30">
+                <div class="hopsp30" id="hopsp30-3">
+                    <img src="anh/02-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1111">
+                        <button id="love3" data-price="104"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh4/goc1.jpg" data-goc2="anh4/goc2.jpg"
+                            data-goc3="anh4/goc3.jpg" data-goc4="anh4/goc4.jpg"
+                            data-chitiet="Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a fulfilling life.
+
+                            Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+                            
+                            Grooming products contribute to a clean appearance and skin health. Comfortable beds support relaxation and well-being.
+                            
+                            Incorporating these products is a caring choice, demonstrating a commitment to providing the best for our cherished companions, fostering a strong bond and a happy, thriving life for them."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang3"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+
+
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></div>
+                    <p>Accusantium Doloremque <br> <b>$ 104.00</b></p>
+                    <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+                <div class="hopsp30" id="hopsp30-4">
+                    <img src="anh/03-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1112">
+                        <button id="love4" data-price="101"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh5/goc1.jpg" data-goc2="anh5/goc2.jpg"
+                            data-goc3="anh5/goc3.jpg" data-goc4="anh5/goc4.jpg"
+                            data-chitiet="Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a fulfilling life.
+
+                            Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+                            
+                            Grooming products contribute to a clean appearance and skin health. Comfortable beds support relaxation and well-being.
+                            
+                            Incorporating these products is a caring choice, demonstrating a commitment to providing the best for our cherished companions, fostering a strong bond and a happy, thriving life for them."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang4"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                    <p>
+                        Fan-shaped button comb<br> <b>$ 101.00 <del>$136.40</del></b>
+                    </p> <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+                <div class="hopsp30" id="hopsp30-5"><img src="anh/04-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1113">
+                        <button id="love5" data-price="79"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh6/goc1.jpg" data-goc2="anh6/goc2.jpg"
+                            data-goc3="anh6/goc3.jpg" data-goc4="anh6/goc4.jpg"
+                            data-chitiet="Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a fulfilling life.
+
+                            Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+                            
+                            Grooming products contribute to a clean appearance and skin health. Comfortable beds support relaxation and well-being.
+                            
+                            Incorporating these products is a caring choice, demonstrating a commitment to providing the best for our cherished companions, fostering a strong bond and a happy, thriving life for them."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang5"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                    <p>
+                        Cat poop shovel N
+                        <br> <b>$ 79.00 <del>$87.40</del></b>
+                    </p> <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+                <div class="hopsp30" id="hopsp30-6"><img src="anh/05-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1114">
+                        <button id="love6" data-price="92"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh7/goc1.jpg" data-goc2="anh7/goc2.jpg"
+                            data-goc3="anh7/goc3.jpg" data-goc4="anh7/goc4.jpg"
+                            data-chitiet="Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a fulfilling life.
+
+                            Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+                            
+                            Grooming products contribute to a clean appearance and skin health. Comfortable beds support relaxation and well-being.
+                            
+                            Incorporating these products is a caring choice, demonstrating a commitment to providing the best for our cherished companions, fostering a strong bond and a happy, thriving life for them."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang6"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></div>
+                    <p>
+                        Catme soybean sand 6L<br> <b>$ 92.00 <del> $98.00</del></b>
+                    </p> <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+                <div class="hopsp30" id="hopsp30-7"><img src="anh/08-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1115">
+                        <button id="love7" data-price="192"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh8/goc1.jpg" data-goc2="anh8/goc2.jpg"
+                            data-goc3="anh8/goc3.jpg" data-goc4="anh8/goc4.jpg"
+                            data-chitiet="Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a fulfilling life.
+
+                            Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+                            
+                            Grooming products contribute to a clean appearance and skin health. Comfortable beds support relaxation and well-being.
+                            
+                            Incorporating these products is a caring choice, demonstrating a commitment to providing the best for our cherished companions, fostering a strong bond and a happy, thriving life for them."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang7"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                    <p>
+                        Type 1 flower anti-licking speaker<br> <b>$ 190.10</b>
+                    </p> <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+                <div class="hopsp30" id="hopsp30-8"><img src="anh/09-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1116">
+                        <button id="love8" data-price="103"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh9/goc1.jpg" data-goc2="anh9/goc2.jpg"
+                            data-goc3="anh9/goc3.jpg" data-goc4="anh9/goc4.jpg"
+                            data-chitiet="Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a fulfilling life.
+
+                            Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+                            
+                            Grooming products contribute to a clean appearance and skin health. Comfortable beds support relaxation and well-being.
+                            
+                            Incorporating these products is a caring choice, demonstrating a commitment to providing the best for our cherished companions, fostering a strong bond and a happy, thriving life for them."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang8"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></div>
+                    <p>
+                        Rainbow stuffed animal toy <br> <b>$ 103.00</b>
+                    </p> <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+                <div class="hopsp30" id="hopsp30-9"><img src="anh/11-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1117">
+                        <button id="love9" data-price="114"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh10/goc1.jpg" data-goc2="anh10/goc2.jpg"
+                            data-goc3="anh10/goc3.jpg" data-goc4="anh10/goc4.jpg"
+                            data-chitiet="Min Pets stands out with several advantages and a reputation for reliability that sets us apart in the pet care industry.
+
+                                    1. Premium Quality Products:
+                                    Our commitment to excellence is reflected in the premium quality of products we offer. Each item in our inventory is carefully selected for its superior quality, ensuring that your pets receive only the best.
+
+                                    2. Authenticity Guaranteed:
+                                    We take pride in providing authentic products, and our commitment to transparency ensures that you can trust the origin and quality of every item in our store. Your peace of mind is our priority.
+
+                                    3. Diverse Range of Products:
+                                    Min Pets offers a comprehensive range of products, from nutritious pet food to engaging toys and practical accessories. This diversity allows you to find everything you need for your pets under one roof.
+
+                                    4. Customer-Centric Approach:
+                                    Our customer service is dedicated to your satisfaction. We prioritize your needs and feedback, striving to create a positive and seamless shopping experience. Feel free to reach out to us for any assistance or inquiries.
+
+                                    5. Trusted Partnerships:
+                                    We build strong partnerships with reputable suppliers and industry leaders, ensuring that our products meet the highest standards of safety, quality, and ethical practices.
+
+                                    6. Passion for Pet Well-being:
+                                    At Min Pets, we share your passion for the well-being of your pets. Our products are designed not only to meet their basic needs but also to enhance their overall happiness, creating lasting moments of joy.
+
+                                    Choose Min Pets for a reliable and fulfilling pet care shopping experience. Your pets deserve the best, and we are here to deliver it with trust and quality."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang9"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                    <p>
+                        Snowman sweatshirt with red scarf<br> <b>$ 4.00</b>
+                    </p> <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+                <div class="hopsp30" id="hopsp30-10"><img src="anh/02-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1118">
+                        <button id="love10" data-price="201"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh11/goc1.jpg" data-goc2="anh11/goc2.jpg"
+                            data-goc3="anh11/goc3.jpg" data-goc4="anh11/goc4.jpg"
+                            data-chitiet="Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a fulfilling life.
+
+                            Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+                            
+                            Grooming products contribute to a clean appearance and skin health. Comfortable beds support relaxation and well-being.
+                            
+                            Incorporating these products is a caring choice, demonstrating a commitment to providing the best for our cherished companions, fostering a strong bond and a happy, thriving life for them."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang10"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                    <p>
+                        Cute cat-shaped anti-sand mat <br> <b>$ 201.00</b>
+                    </p> <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+                <div class="hopsp30" id="hopsp30-11"><img src="anh/06-278x320.jpg" alt="">
+                    <div class="hopchuadanhmuc111" id="hopchuadanhmuc1119">
+                        <button id="love11" data-price="124"><ion-icon name="heart-outline"></ion-icon></button>
+                        <button id="xemchi" data-goc1="anh12/goc1.jpg" data-goc2="anh12/goc2.jpg"
+                            data-goc3="anh12/goc3.jpg" data-goc4="anh12/goc4.jpg"
+                            data-chitiet="Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a fulfilling life.
+
+                            Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+                            
+                            Grooming products contribute to a clean appearance and skin health. Comfortable beds support relaxation and well-being.
+                            
+                            Incorporating these products is a caring choice, demonstrating a commitment to providing the best for our cherished companions, fostering a strong bond and a happy, thriving life for them."
+                            onclick="chuyensang(this);"><ion-icon name="information-circle-outline"></ion-icon></button>
+                        <button id="themvaogiohang11"><ion-icon name="bag-add-outline"></ion-icon></button>
+                    </div>
+                    <div class="danhgia"><ion-icon name="star-outline"></ion-icon><ion-icon
+                            name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon></div>
+                    <p>
+                        Scratching post with 2 levels of fish and cat face <br> <b>$ 124.00</b>
+                    </p> <i>Commodi ConsequaturCommodi ConsequaturSale2% Off </i>
+                </div>
+            </div>
+            <br>
+            <div class="thongsosanpham">
+                <i> Using pet products goes beyond convenience; it's crucial for our furry companions' well-being and
+                    happiness. Crafted to meet unique needs, these products offer care, comfort, and stimulation for a
+                    fulfilling life.
+
+                    Balanced pet food is essential for health, providing nutrients for growth and vitality. Interactive
+                    toys keep them engaged, preventing boredom and promoting a healthy lifestyle.
+
+                    Grooming products contribute to a clean appearance and skin health. Comfortable beds support
+                    relaxation and well-being.
+
+                    Incorporating these products is a caring choice, demonstrating a commitment to providing the best
+                    for our cherished companions, fostering a strong bond and a happy, thriving life for them.
+                </i>
+            </div>
+            <div class="hopdanhgia">
+                <video width="100%" height="100%" src="anh/videointro.mp4" controls
+                    poster="anh/Tuong-Gom-Co.jpg"></video>
+            </div>
+            <!-- <div class="hopsp30"><img src="anh/category-image1.jpg" alt=""></div> -->
+
+
+        </div>
+    </div>
+    <div class="container3">
+        <div class="main">
+            <div class="banner4">
+                <div class="cms-banner" id="cms-banner"><img id="img1" class="img activeimg" src="anh/cms-banner1.jpg"
+                        alt="">
+                    <img id="img" class="img" src="anh/cms-banner.jpg" alt="">
+                </div>
+                <div class="saleof">
+                    <h2><b>30% Save</b>
+                        <br>Latest Pets care
+                    </h2>
+                    <p>There are many variations of passages of Lorem.</p>
+                </div>
+                <div class="shop-now">Shop Now</div>
+
+            </div>
+
+
+            <div class="quoter">
+                <div class="hopquoter"><img src="anh/quote.png" alt=""></div>
+                <h2>Min Pets</h2>
+                <div class="hopp">
+                    <p id="p1" class="p1 activesss"> At Min Pets, product quality is not just a commitment; it's a
+                        hallmark of trust. We take pride in delivering high-quality products, meticulously curated to
+                        meet and exceed customer expectations. Each item in our catalog is designed with respect for the
+                        health and happiness of pets, adhering to the highest standards of safety and quality.
+
+                        We continually strive to ensure that every product meets the highest standards of durability,
+                        functionality, and safety. This dedication helps build strong customer trust because we believe
+                        that every Min Pets product is not just an item but a steadfast commitment to the happiness and
+                        well-being of your pets.
+                    </p>
+                    <p id="p2" class="p1 ">
+                        Min Pets' premium pet products not only serve as practical tools but also offer numerous
+                        benefits for your furry companions. Designed to provide the best experience for your little
+                        ones, they support care routines and enhance the overall health of your pets.
+
+                        Our high-quality pet food is not only delicious but also packed with essential nutrients to
+                        ensure the health, growth, and energy of your pets. Carefully selected toys and accessories can
+                        improve their spirits and boost physical activity, creating enjoyable and positive experiences.
+
+                        Additionally, pet care products such as grooming oils, brushes, or cozy beds contribute to
+                        strengthening the bond between you and your pets, making the care process easier and more
+                        enjoyable.
+
+                        With Min Pets, we are committed to delivering products that not only meet basic needs but also
+                        elevate the quality of life and happiness of your pets within your family.
+                    </p>
+                    <p id="p3" class="p1 ">At Min Pets, we are steadfast in ensuring that every product in our catalog
+                        has a clear and reliable origin. We prioritize collaborations with reputable partners and
+                        suppliers, ensuring that our products come from high-quality and high-standard sources.
+
+                        Quality and safety take precedence in the selection of our suppliers. We adhere to industry
+                        regulations and standards, including safety and ethical standards in production. This ensures
+                        that each Min Pets product is not only of high quality but also comes with assurance regarding
+                        its origin and safety, providing peace of mind for customers when selecting products for their
+                        pets.”
+                    </p>
+                </div>
+                <div class="nut">
+                    <div class="nut1 btnact" id="nut11111"></div>
+                    <div class="nut1" id="nut11112"></div>
+                    <div class="nut1" id="nut11113"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container4">
+        <div class="main">
+            <div class="TopCategories">Image Gallery <br>
+                <div class="thanhchancuaTopCategories"></div>
+            </div>
+
+            <div class="hopthuvienhinhanh">
+                <div class="hinhanh1"><img src="anh/blog-1-893x752.jpg" alt=""></div>
+                <div class="hinhanh1"><img src="anh/blog-2-893x752.jpg" alt=""></div>
+                <div class="hinhanh1"><img src="anh/blog-3-893x752.jpg" alt=""></div>
+                <div class="hinhanh1"><img src="anh/blog-4-893x752.jpg" alt=""></div>
+                <div class="hinhanh1"><img src="anh/blog-5-893x752.jpg" alt=""></div>
+                <div class="hinhanh1"><img src="anh/blog-6-893x752.jpg" alt=""></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container5" id="container5">
+        <div class="main">
+            <div class="TopCategories">About Us<br>
+                <div class="thanhchancuaTopCategoriess"></div>
+            </div>
+            <div class="chuthuonghieu">PEACE OF MIND ABOUT QUALITY
+                AUTHENTIC PRODUCTS ™</div>
+            <div class="phone">PHONE ☏ <br><span> + (84) 190401004</span></div>
+            <div class="langgombattrang">MIN PETS<br> <span>Welcome to Min Pets - the home of fantastic companions! We
+                    take pride in being the go-to destination for pet enthusiasts, where you can find everything you
+                    need to care for and delight your furry friends.
+
+                    At Min Pets, we offer a diverse and high-quality collection of food, toys, accessories, and more to
+                    ensure your pets receive the best care possible. We are committed to providing a convenient, secure,
+                    and warm online shopping experience.
+
+                    Visit our online store to explore a diverse space where the well-being and love for your pets take
+                    center stage. Min Pets is where passion and pet affection come together to create unforgettable
+                    moments. Welcome to the Min Pets family!</span>
+            </div>
+            <div class="anhboutus1"><img src="anh/aboutus1.png" alt=""></div>
+
+
+        </div>
+    </div>
+    <div class="container6" id="container6">
+        <div class="main">
+            <div class="hoptrang">
+                <div id="hopsss" class="hopgomnghethuat">
+                    <p style=" border-bottom: 1px solid #b2bec3;">
+                        MIN PETS </p> <br>
+                    <p>
+                        At Min Pets, we take pride in introducing a range of authentic products characterized by
+                        top-notch quality, meticulously curated to meet all your pet care needs. From nutritious food to
+                        innovative toys and practical accessories, we are committed to offering diversity and excellence
+                        in every product.
+
+                        Pet care is not just a duty; it's our passion. Designed to meet safety standards and ensure the
+                        comfort of your pets, products at Min Pets are more than just items – they are opportunities to
+                        create special moments and build strong bonds with your beloved companions. Explore the world of
+                        authentic products at Min Pets, where love begins!
+
+                    </p>
+                    <p style=" border-bottom: 1px solid #b2bec3;">MIN PETS </p>
+                    <P>
+                        @ Min Pets <br>
+                        -BTEC FPT British College DA NANG <br>
+                        Tel:+84123456789 <br>
+                        Hotline: +84 123 456 789 <br>
+                        Email: yehhtbd00210@fpt.edu.vn <br>
+
+                    </P>
+
+                </div>
+                <div id="hopsss" class="hopgioithieu">
+                    <p style=" border-bottom: 1px solid #b2bec3;">INTRODUCE</p>
+                    <br>
+                    <p>
+
+                        Welcome to Min Pets, where our commitment to excellence shines through in every product we
+                        offer. Our carefully curated selection of authentic pet care items is designed to cater to all
+                        your furry friends' needs.
+
+                        Explore our collection of high-quality, nutritionally balanced pet foods that ensure your
+                        companions receive the best in terms of health and vitality. From interactive and engaging toys
+                        to stylish and practical accessories, we have everything you need to pamper your pets.
+
+                        At Min Pets, we understand that pets are family, and our products reflect that sentiment. Each
+                        item is chosen with your pet's well-being and happiness in mind, adhering to strict safety and
+                        quality standards.
+
+                        Discover a world of premium pet care products at Min Pets, where the love for your pets meets
+                        exceptional quality. Your journey to providing the best for your furry family members begins
+                        here!.
+                    </p>
+                </div>
+                <div id="hopsss" class="hotro">
+                    <p style=" border-bottom: 1px solid #b2bec3;">CUSTOMER SUPPORT</p>
+                    <br>
+                    <br> Email: yenhtbd00210@fpt.edu.vn <br></br>
+                        Time work <br>
+                        Monday to Friday: From 8:30 to 18:30 <br>
+                        Saturday & Sunday: From 9:30 to 17:30 <br>
+                    </p>
+                    <br>
+                    <p>Google Maps</p>
+                    <br style="box-sizing: border-box;">
+                    <iframe class="ggmaps"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9669801970595!2d108.2001887108375!3d16.067203184547797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142184d687c0ddd%3A0x532210d879f8c3d1!2zNjYgVsO1IFbEg24gVOG6p24sIENow61uaCBHacOhbiwgVGhhbmggS2jDqiwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1702182023632!5m2!1svi!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   
+                </div>
+                <div id="hopsss" class="ketnoi">
+                    <p style=" border-bottom: 1px solid #b2bec3;">
+                        CONNECT WITH US
+
+                    </p>
+                    <br>
+                    <div class="video">
+                        <img src="anh/outro.gif" alt="">
+                    </div> <br>
+                    <i> Min Pets is a brand synonymous with quality, reliability, and unwavering dedication.
+                        Have a great experience!
+                    </i>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <script src="thumucyeuthich.js"></script>
+    <script src="hieuung.js"></script>
+    <script src="allslideshow.js"></script>
+
+
+    <script src="chitietsanpham1.js"></script>
+    <script src="center.js"></script>
+</body>
+
+</html>
